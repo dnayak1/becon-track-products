@@ -17,4 +17,4 @@ router.get('/allProducts',product.allProducts);
 router.get('/allProducts/:region',product.productsByRegion);
 
 app.use('/api', router);
-app.listen(5001);
+app.listen(5000);
